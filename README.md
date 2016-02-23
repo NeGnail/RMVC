@@ -9,8 +9,9 @@
     
     
     
-    
+    The flow chart is as follows：
     ![image](https://github.com/meelody/RMVC/blob/master/lw.1.png)
+    
 Configuration
     RMVC provide container interface to the user, the user can implement this interface to use their own containers.
     
