@@ -1,3 +1,9 @@
+    
+    
+    
+    
+    
+    
     This is a MVC framework。RMVC is committed to support for RESTful。
     RMVC support to URL request parameter, and support the concurrent requests. In a request to the operation of the multiple resources.
     
