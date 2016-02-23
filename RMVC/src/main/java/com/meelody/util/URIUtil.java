@@ -1,4 +1,4 @@
-package coolraw.util;
+﻿package coolraw.util;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -72,12 +72,20 @@ public class URIUtil {
 		return request.getRequestURI().substring(request.getContextPath().length());
 	}
 	
-
+	public static String[] resolveConcurrentURI(String accessUri) {
+		accessUri.replace("*", "\\*");
+		String[] accessUris=accessUri.split("\\*");
+		return accessUris;
+	}
 	public static void main(String[] args) {
 		String a="/as/gs/gsd";
 		String b="/as/gs";
 		System.out.println(URIUtil.sub(a, b));
-	
+		String d="/aa/bb/cc/11";
+		String c="/aa/bb/cc/{dd}";
+		System.out.println(URIUtil.isMatchForRest(d, c));
+		System.out.println(URIUtil.getParametersForRest(d, c));
+		
 		
 	}
 }
