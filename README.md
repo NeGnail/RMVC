@@ -1,5 +1,9 @@
     This is a MVC framework。RMVC is committed to support for RESTful。
     RMVC support to URL request parameter, and support the concurrent requests. In a request to the operation of the multiple resources.
+    
+    
+    
+    
     ![image](https://github.com/meelody/RMVC/blob/master/lw.1.png)
 Configuration
     RMVC provide container interface to the user, the user can implement this interface to use their own containers.
@@ -24,7 +28,7 @@ Configuration
 	    }
 }
 
-    RMVC default by the Spring IOC container containers as the default, 
+  RMVC default by the Spring IOC container containers as the default, 
     so if using the default Settings will need to provide to the Spring under the web environment configuration
     <context-param>
         <param-name>contextConfigLocation</param-name>
