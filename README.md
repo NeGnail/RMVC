@@ -1,6 +1,6 @@
     This is a MVC framework。RMVC is committed to support for RESTful。
     RMVC support to URL request parameter, and support the concurrent requests. In a request to the operation of the multiple resources.
-    ![image](https://github.com/lw(1).jpg)
+    ![image](https://github.com/meelody/RMVC/blob/master/lw.1.png)
 Configuration
     RMVC provide container interface to the user, the user can implement this interface to use their own containers.
     
